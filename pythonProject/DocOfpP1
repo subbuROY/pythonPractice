@@ -1,0 +1,43 @@
+Project Description:
+
+1. ToDoList Class:
+
+The ToDoList class serves as the core of the to-do list application.
+
+It has three methods:
+__init__(self): Initializes an empty list to store tasks.
+
+add_task(self, task): Adds a new task to the list and prints a confirmation message.
+
+view_tasks(self): Displays all tasks in the list, numbered for easy reference.
+
+2. Main Program (main() Function):
+The main() function is the entry point of the program.
+
+It creates an instance of the ToDoList class to manage tasks.
+
+A loop runs until the user decides to quit the application.
+
+The user is presented with a menu of options:
+
+Option 1: Add Task - Prompts the user to input a task and adds it to the to-do list.
+
+Option 2: View Tasks - Displays all tasks in the to-do list.
+
+Option 3: Complete Task - Asks the user for the index of a task to mark as completed.
+
+Option 4: Quit - Exits the program.
+
+3. Running the Program:
+
+The if __name__ == "__main__": block ensures that the main() function is executed when the script is run.
+
+Users interact with the program through the console, entering numerical choices to perform different actions.
+
+The program validates user input to ensure it corresponds to a valid menu option.
+
+How to Use:
+
+Run the script in a Python environment.
+Follow the on-screen instructions to add tasks, view tasks, complete tasks, or quit the program.
+The program provides a simple way to manage a to-do list through the console.
